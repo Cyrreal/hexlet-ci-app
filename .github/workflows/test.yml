@@ -8,7 +8,7 @@ jobs:
     - uses: actions/setup-node@v2
     with:
       node-version: 18
-      cache: npm
+      cache: npm 6.x
     run: make setup
     run: make test
     run: make lint
